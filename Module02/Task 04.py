@@ -1,0 +1,12 @@
+num01 = input("Enter the first number:")
+num02 = input("Enter the second number:")
+num03 = input("Enter the third number:")
+num01 = int(num01)
+num02 = int(num02)
+num03 = int(num03)
+sum  = int(num01+num02+num03)
+prod = int(num01*num02*num03)
+average = (num01+num02+num03)/3
+print("The sum of the numbers is", sum)
+print("The product of the numbers is", prod)
+print("The average of the numbers is", average)
