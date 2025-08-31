@@ -1,4 +1,8 @@
-coins = int(input("How many coins? "))
-while coins < 5:
-    print("Not enough! Give me {5-coins}")
-    coins = int(input("add more money "))
+number = 1
+
+
+while number <= 1000:
+    if number % 3 == 0:
+        print(number)
+
+    number += 1
